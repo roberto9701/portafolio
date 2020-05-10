@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InfoPaginaService } from '../../services/info-pagina.service';
 
 @Component({
   // el selecctor permite usar el componente como una etiqueta normal 
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor( public _servicio: InfoPaginaService ) { }
 
   ngOnInit(): void {
   }
