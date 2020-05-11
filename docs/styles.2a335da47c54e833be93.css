@@ -1,0 +1,1 @@
+.persona img{width:100%;filter:gray;-webkit-filter:grayscale(1);transition:all .3s ease-in-out;z-index:1}.persona img:hover{filter:none;-webkit-filter:grayscale(0);z-index:2}svg path,svg rect{fill:#000}
